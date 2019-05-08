@@ -8,7 +8,7 @@ namespace Best_Fit
 {
     class Program
     {
-        public static Stack<int> Removed_Holes = new Stack<int>();
+        private static Stack<int> Removed_Holes = new Stack<int>();
 
         static public bool Best_Alloc(Process PS, ref IList<Hole> Hole_List, SortedList<int, Segment> Memory)
         {
