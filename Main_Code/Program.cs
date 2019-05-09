@@ -1,24 +1,29 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Best_Fit
+namespace Memory_Fit
 {
     class Program
     {
         private static Stack<int> Removed_Holes = new Stack<int>();
 
-        static public bool Best_Alloc(Process PS, ref IList<Hole> Hole_List, SortedList<int, Segment> Memory)
+        static public bool Mem_Alloc(Process PS, ref IList<Hole> Hole_List, char mt, SortedList<int, Segment> Memory)
         {
             Segment sg_temp;
             Hole hole_temp;
             bool fit;
-            Hole_List = Hole_List.OrderBy(a => a.size).ToList();
+            if(mt == 'F')
+                Hole_List = Hole_List.OrderBy(a => a.start).ToList();
             for (int i = 0; i < PS.sg_num; i++)
             {
                 fit = false;
+                if (mt == 'B')
+                    Hole_List = Hole_List.OrderBy(a => a.size).ToList();
+                else if (mt == 'W')
+                    Hole_List = Hole_List.OrderByDescending(a => a.size).ToList();
                 for (int j = 0; j < Hole_List.Count; j++)
                 {
                     if (Hole_List[j].size >= PS.sgmnt[i].sg_size)
@@ -46,12 +51,8 @@ namespace Best_Fit
                     }
                 }
                 if (!fit)
-                {
-                    Hole_List = Hole_List.OrderBy(a => a.start).ToList();
                     return false;
-                }
             }
-            Hole_List = Hole_List.OrderBy(a => a.start).ToList();
             return true;
         }
 
@@ -60,6 +61,7 @@ namespace Best_Fit
             int Memory_index;
             Segment sg_temp;
             Hole hole_temp;
+            Hole_List = Hole_List.OrderBy(a => a.start).ToList();
             for (int i = (PS.sg_num-1); i >= 0; i--)
             {
                 if (Memory.ContainsValue(PS.sgmnt[i]))
@@ -104,7 +106,6 @@ namespace Best_Fit
                         hole_temp.start = Memory.Keys[Memory_index];
                         hole_temp.size = Memory.Values[Memory_index].sg_size;
                         Hole_List.Add(hole_temp);
-                        Hole_List = Hole_List.OrderBy(a => a.start).ToList();
                         sg_temp.sg_name = "Hole " + hole_temp.num.ToString();
                         sg_temp.sg_size = Memory.Values[Memory_index].sg_size;
                         Memory[Memory.Keys[Memory_index]] = sg_temp;
@@ -230,6 +231,9 @@ namespace Best_Fit
                     }
                     else
                     {
+                        Console.WriteLine("Choose Method of Allocation [F/B/W]:");
+                        Console.WriteLine("F: First Fit   B: Best_Fit   W: Worst_Fit");
+                        char mt = Convert.ToChar(Console.ReadLine());
                         PS = new Process();
                         Console.WriteLine("Please enter Process name:");
                         PS.name = Console.ReadLine();
@@ -244,7 +248,7 @@ namespace Best_Fit
                             SG.sg_size = Convert.ToInt32(Console.ReadLine());
                             PS.Add_SG(SG);
                         }
-                        if (!Best_Alloc(PS, ref Hole_List, Memory))
+                        if (!Mem_Alloc(PS, ref Hole_List, mt, Memory))
                         {
                             DeAlloc(PS, ref Hole_List, Memory);
                             Console.WriteLine("Process does not fit :(");
@@ -263,14 +267,19 @@ namespace Best_Fit
                     }
                     if (op == 'D' || Deallocate)
                     {
-                        for (int i = 0; i < PS_List.Count; i++)
+                        if (op == 'D' && Hole_List.Count == 1 && Hole_List.First().size == size)
+                            Console.WriteLine("Memory is already empty :)");
+                        else
                         {
-                            Console.WriteLine("{0}:  {1}", i, PS_List[i].name);
+                            for (int i = 0; i < PS_List.Count; i++)
+                            {
+                                Console.WriteLine("{0}:  {1}", i, PS_List[i].name);
+                            }
+                            Console.WriteLine("Please select Process Number:");
+                            int PS_num = Convert.ToInt32(Console.ReadLine());
+                            DeAlloc(PS_List[PS_num], ref Hole_List, Memory);
+                            PS_List.RemoveAt(PS_num);
                         }
-                        Console.WriteLine("Please select Process Number:");
-                        int PS_num = Convert.ToInt32(Console.ReadLine());
-                        DeAlloc(PS_List[PS_num], ref Hole_List, Memory);
-                        PS_List.RemoveAt(PS_num);
                     }
                 }
                 Console.WriteLine("\n<Memory Layout>");
