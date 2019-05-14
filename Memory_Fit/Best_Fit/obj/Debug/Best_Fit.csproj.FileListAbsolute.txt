@@ -1,6 +1,0 @@
-D:\My Files\Projects\Operating Systems\Memory Allocation\Best_Fit\Best_Fit\bin\Debug\Best_Fit.exe.config
-D:\My Files\Projects\Operating Systems\Memory Allocation\Best_Fit\Best_Fit\bin\Debug\Best_Fit.exe
-D:\My Files\Projects\Operating Systems\Memory Allocation\Best_Fit\Best_Fit\bin\Debug\Best_Fit.pdb
-D:\My Files\Projects\Operating Systems\Memory Allocation\Best_Fit\Best_Fit\obj\Debug\Best_Fit.csprojResolveAssemblyReference.cache
-D:\My Files\Projects\Operating Systems\Memory Allocation\Best_Fit\Best_Fit\obj\Debug\Best_Fit.exe
-D:\My Files\Projects\Operating Systems\Memory Allocation\Best_Fit\Best_Fit\obj\Debug\Best_Fit.pdb
