@@ -74,7 +74,7 @@ namespace Memory_Allocation
             PS.sg_num = numSG;
             PS.sg_alloc();
 
-            for (int a = 0; a < dataGridView1.Rows.Count-1; a++)
+            for (int a = 0; a < dataGridView1.Rows.Count; a++)
             {
                 row = dataGridView1.Rows[a];
                 //  if (Convert.ToBoolean(row.Cells[0].Value) == true)

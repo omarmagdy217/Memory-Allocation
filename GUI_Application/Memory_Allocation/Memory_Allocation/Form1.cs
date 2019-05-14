@@ -294,9 +294,15 @@ namespace Memory_Allocation
         private void button6_Click(object sender, EventArgs e)
         {
             Memory_OP.Compaction(size, ref Hole_List, Memory);
+            Memory_OP.Reset();
             Memory_Layout();
             label5.Text = "Memory Compact";
             button6.Enabled = false;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -33,6 +33,8 @@ namespace Memory_Allocation
             H.size = Int32.Parse(textBox2.Text);
             Form1.Hole_List.Add(H);
             Hole_num++;
+            textBox1.Text = "";
+            textBox2.Text = "";
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
@@ -41,8 +43,6 @@ namespace Memory_Allocation
         {
             label1.Text = "Hole[" + Hole_num.ToString() + "] Addres:";
             label2.Text = "Hole[" + Hole_num.ToString() + "] Size:";
-            textBox1.Text = "";
-            textBox2.Text = "";
         }
 
         private void label1_Click(object sender, EventArgs e)
