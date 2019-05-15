@@ -1,0 +1,48 @@
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.exe.config
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.exe
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.pdb
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.csprojResolveAssemblyReference.cache
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form1.resources
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form2.resources
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Properties.Resources.resources
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.csproj.GenerateResource.Cache
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.exe
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.pdb
+E:\My Files\OS\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form3.resources
+H:\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.exe.config
+H:\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.exe
+H:\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.pdb
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.exe.config
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.exe
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.pdb
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.exe
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.pdb
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.csprojResolveAssemblyReference.cache
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form1.resources
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form2.resources
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form3.resources
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Properties.Resources.resources
+C:\Users\omarm\Desktop\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.csproj.GenerateResource.Cache
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.exe.config
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.exe
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.pdb
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.exe
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.pdb
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.csprojResolveAssemblyReference.cache
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form1.resources
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form2.resources
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form3.resources
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Properties.Resources.resources
+D:\My Files\Projects\Operating Systems\Memory Allocation\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.csproj.GenerateResource.Cache
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.exe.config
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.exe
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\bin\Debug\Memory_Allocation.pdb
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.csprojAssemblyReference.cache
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form1.resources
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form2.resources
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Form3.resources
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.Properties.Resources.resources
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.csproj.GenerateResource.cache
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.csproj.CoreCompileInputs.cache
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.exe
+C:\Users\omar\Documents\GitHub\Memory-Allocation\GUI_Application\Memory_Allocation\Memory_Allocation\obj\Debug\Memory_Allocation.pdb
